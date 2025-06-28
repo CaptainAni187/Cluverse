@@ -1,0 +1,41 @@
+/* ───────────────── Tailwind v4 directive ──────────────── */
+@import "tailwindcss";
+
+/* ───────────────── Colour tokens ──────────────── */
+:root {
+  --bg-main:    #1e1e1e;   /* page canvas                              */
+  --bg-header:  #0b1638;   /* dark-blue top bar                        */
+  --bg-card:    #232a3b;   /* inner blocks / cards                     */
+  --accent:     #70c6ff;   /* cyan accent strip in the design          */
+  --fg-main:    #f3f6fa;   /* default text                             */
+}
+
+/* ───────────────── Global reset  ──────────────── */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg-main);
+  color: var(--fg-main);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* scrollbar */
+::-webkit-scrollbar      { width: 6px; }
+::-webkit-scrollbar-thumb{ background:#444; border-radius:3px; }
+
+/* links */
+a       { color: var(--accent); text-decoration: none; }
+a:hover { opacity: .8; }
+
+/* base button reset (Tailwind will override sizes/colours) */
+button {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

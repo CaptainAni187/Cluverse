@@ -26,16 +26,17 @@ Cluverse is a modern event and club management platform designed for campuses. I
 ### Backend Setup
 1. Navigate to the backend directory.
 2. Install dependencies:
-npm install
+*npm install*
 3. Configure environment variables (e.g., MongoDB URI, JWT secret) in a `.env` file.
 4. Start the server:
-npm run dev
+*npm run dev*
 
 ### Frontend Setup
 1. Navigate to the frontend directory.
 2. Install dependencies:
-npm install
+*npm install*
 3. Start the development server:
+*npm run dev*
 
 ## Usage
 - Register as a student or club admin.

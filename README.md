@@ -1,6 +1,5 @@
 # Cluverse: Campus Club & Event Management
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react)](https://reactjs.org/)
 [![Backend](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js)](https://nodejs.org/)
 [![Database](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb)](https://www.mongodb.com/)
@@ -9,7 +8,6 @@
 
 **Cluverse** is a modern, full-stack event and club management platform designed to streamline campus life. It provides a seamless, role-based experience for students, club administrators, and the Campus Welfare Officer (CWO) to manage events, registrations, approvals, and all club-related activities in one centralized hub.
 
-*(Suggestion: Add a screenshot or GIF of the Cluverse dashboard here)*
 
 ---
 
@@ -148,12 +146,6 @@ Cluverse operates on a client-server model with a clear, logical workflow for ev
 ## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/CaptainAni187/Cluverse/issues).
-
----
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
